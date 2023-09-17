@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-17T01:30:25.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="TU7opy4mvavwQbj9rPxb" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-17T02:24:48.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="PNctuKybPbNBVJWqxnmm" version="21.7.4" type="github">
   <diagram id="mCheTAdoRBEMM2ChDu2A" name="Page-1">
-    <mxGraphModel dx="786" dy="449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="374" dy="214" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,7 +343,7 @@
         <mxCell id="KOXAZtSZaanID1QkLMNk-25" value="[B*L*C]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="466" y="609" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KOXAZtSZaanID1QkLMNk-29" value="[B*L*C]&lt;br&gt;(e.g. 30-day)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="KOXAZtSZaanID1QkLMNk-29" value="[B, L, C]&lt;br&gt;(e.g. 30-day)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="351" y="560" width="79" height="30" as="geometry" />
         </mxCell>
         <mxCell id="KOXAZtSZaanID1QkLMNk-30" value="[B*(L/2)*C]&lt;br&gt;（e.g. 14-day）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -403,7 +403,7 @@
             <mxPoint x="280" y="437" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="O3ohlPy4hN820MQhOgyp-3" value="[B*(L*C)]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="O3ohlPy4hN820MQhOgyp-3" value="[B, (L*C)]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="335" y="467" width="79" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O3ohlPy4hN820MQhOgyp-4" value="[B*(L/2*C)]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -424,7 +424,7 @@
         <mxCell id="O3ohlPy4hN820MQhOgyp-8" value="Input time series" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="376" y="647" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="O3ohlPy4hN820MQhOgyp-9" value="[B*d]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="O3ohlPy4hN820MQhOgyp-9" value="[B, d]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="341" y="177" width="33" height="30" as="geometry" />
         </mxCell>
         <mxCell id="O3ohlPy4hN820MQhOgyp-10" value="[B*d]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
