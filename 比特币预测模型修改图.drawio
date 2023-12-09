@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-09T18:54:32.866Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="RsDmJQoq5H7ewpC8gvzY" version="22.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-09T19:03:01.089Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="SeTnBAvtb-JXzd_Gkejn" version="22.1.5" type="github">
   <diagram id="mCheTAdoRBEMM2ChDu2A" name="Page-1">
-    <mxGraphModel dx="1805" dy="549" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1276" dy="322" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1120,6 +1120,9 @@
         </mxCell>
         <mxCell id="4p1qmTCOK1UH07okr2WW-380" value="We hope that each expert could learn from different data length, &lt;br&gt;and that is controlled by the learned weight.&lt;br&gt;Thus each weight is hoped to learn relatively bigger weight in the riight part,&lt;br&gt;while learning a small weight in its left part." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="670" y="1290" width="420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4p1qmTCOK1UH07okr2WW-382" value="&lt;b&gt;mask matrix&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1344" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
