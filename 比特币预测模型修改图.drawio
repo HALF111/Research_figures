@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T15:09:24.241Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="9aSBUrkr5xDbnRilW3GN" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T15:09:59.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="iWDS9yI7gHiS7If6NcHL" version="22.1.7" type="github">
   <diagram id="mCheTAdoRBEMM2ChDu2A" name="Page-1">
     <mxGraphModel dx="2399" dy="934" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -977,7 +977,7 @@
           <mxGeometry x="506" y="1972" width="33" height="30" as="geometry" />
         </mxCell>
         <mxCell id="4p1qmTCOK1UH07okr2WW-315" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="160" y="1891" width="140" height="579" as="geometry" />
+          <mxGeometry x="160" y="1891" width="940" height="579" as="geometry" />
         </mxCell>
         <mxCell id="4p1qmTCOK1UH07okr2WW-316" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;y&lt;sup&gt;(n)&lt;/sup&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="469" y="1840" width="60" height="30" as="geometry" />
@@ -1267,7 +1267,7 @@
             <mxPoint x="370" y="1378" as="sourcePoint" />
             <mxPoint x="226" y="1336" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="226" y="1393" />
+              <mxPoint x="226" y="1447" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -1473,7 +1473,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="p7EKacR-VRgnB7S--peM-64" value="X = [B, (L*C)]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="191" y="1393" width="79" height="30" as="geometry" />
+          <mxGeometry x="190" y="1450" width="79" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p7EKacR-VRgnB7S--peM-65" value="G(x)_1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="215" y="1178" width="44" height="16" as="geometry" />
