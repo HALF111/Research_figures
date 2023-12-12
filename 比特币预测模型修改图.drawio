@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T09:24:42.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Uq17amPYOyc_W1px64ZL" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T09:26:53.557Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="BeZoryqmGqK48RX5H7TG" version="22.1.7" type="github">
   <diagram id="mCheTAdoRBEMM2ChDu2A" name="Page-1">
     <mxGraphModel dx="1950" dy="667" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1427,10 +1427,10 @@
             <mxPoint x="310" y="1457" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p7EKacR-VRgnB7S--peM-56" value="[B, (L*C)]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="p7EKacR-VRgnB7S--peM-56" value="[B, (L*C)]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="300" y="1390" width="79" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="p7EKacR-VRgnB7S--peM-57" value="[B, (L/2*C)]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="p7EKacR-VRgnB7S--peM-57" value="[B, (L/2*C)]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="410" y="1390" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p7EKacR-VRgnB7S--peM-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p7EKacR-VRgnB7S--peM-20" target="p7EKacR-VRgnB7S--peM-20">
@@ -1499,7 +1499,7 @@
         <mxCell id="p7EKacR-VRgnB7S--peM-71" value="+ multi-scale&lt;br&gt;adversarial noise" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="1484" width="100" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="p7EKacR-VRgnB7S--peM-72" value="[B, (L/4*C)]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="p7EKacR-VRgnB7S--peM-72" value="[B, (L/4*C)]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="530" y="1390" width="95" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p7EKacR-VRgnB7S--peM-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p7EKacR-VRgnB7S--peM-74">
@@ -1514,7 +1514,7 @@
           <mxGeometry x="496" y="1092" width="33" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p7EKacR-VRgnB7S--peM-76" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="160" y="1011" width="660" height="539" as="geometry" />
+          <mxGeometry x="160" y="1011" width="20" height="539" as="geometry" />
         </mxCell>
         <mxCell id="p7EKacR-VRgnB7S--peM-77" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;y&lt;sup&gt;(n)&lt;/sup&gt;&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="459" y="960" width="60" height="30" as="geometry" />
@@ -1614,7 +1614,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="p7EKacR-VRgnB7S--peM-141" value="dynamic mask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="p7EKacR-VRgnB7S--peM-141" value="dynamic mask" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="390" y="1352" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p7EKacR-VRgnB7S--peM-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="p7EKacR-VRgnB7S--peM-142" target="p7EKacR-VRgnB7S--peM-20">
@@ -1779,6 +1779,15 @@
             <mxPoint x="710" y="1404" as="sourcePoint" />
             <mxPoint x="932" y="1480" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="p7EKacR-VRgnB7S--peM-201" value="&lt;b&gt;m&lt;sub&gt;L&lt;/sub&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="388" y="1311" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p7EKacR-VRgnB7S--peM-203" value="&lt;b&gt;m&lt;sub&gt;L/2&lt;/sub&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1310" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p7EKacR-VRgnB7S--peM-204" value="&lt;b&gt;m&lt;sub&gt;L/4&lt;/sub&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1310" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
