@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-12T09:23:03.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="4l121WVs0uMNFhvWp7PK" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-12T09:24:25.238Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="bCyluOJAbQtGndEQjKBJ" version="22.1.7" type="github">
   <diagram id="mCheTAdoRBEMM2ChDu2A" name="Page-1">
-    <mxGraphModel dx="1482" dy="389" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1752" dy="549" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1766,7 +1766,7 @@
           <mxGeometry x="991" y="1260" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="p7EKacR-VRgnB7S--peM-196" value="The Mask Matrix is an upper triangular matrix,&lt;br&gt;where the upper right corner of the diagonal is 1,&lt;br&gt;&amp;nbsp;and the lower left corner of the diagonal is 0" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="860" y="1190" width="280" height="60" as="geometry" />
+          <mxGeometry x="850" y="1200" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="p7EKacR-VRgnB7S--peM-197" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="1" source="p7EKacR-VRgnB7S--peM-165" target="p7EKacR-VRgnB7S--peM-184">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
