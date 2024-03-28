@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T06:06:48.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="U8aApmcY-BqbIMETdM8T" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T06:07:19.714Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="JjcbzecEDVayZ29WKmE6" version="24.0.7" type="github">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
     <mxGraphModel dx="655" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -12,6 +12,9 @@
         </mxCell>
         <mxCell id="ngQ9yRomgQoD0f1Z9IKM-4" value="&lt;b&gt;abbr.:&lt;/b&gt;&lt;div&gt;sl: seq_len, 96;&lt;/div&gt;&lt;div&gt;pl: pred_len, 24;&lt;/div&gt;&lt;div&gt;bs: batch_size, 32;&lt;/div&gt;&lt;div&gt;c: channel, 7;&lt;/div&gt;&lt;div&gt;pl: patch_len, 16;&lt;/div&gt;&lt;div&gt;pn: patch_num, 6;&lt;/div&gt;&lt;div&gt;ct: channel of timestamp info, 4;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="25" y="380" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ngQ9yRomgQoD0f1Z9IKM-5" value="Patch都固定为non-overlapping的形式，更方便操作。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="414" width="310" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
