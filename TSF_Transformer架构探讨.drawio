@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T15:23:13.636Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Gdo2HXgWwEchTqkEggc0" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T15:23:22.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="_wTEyAIvcFrMPh-FelPJ" version="24.0.7" type="github">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
     <mxGraphModel dx="418" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -37,8 +37,8 @@
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-3" value="[bs, c, (pn * d_model)]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="257.5" y="730" width="137.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-4" value="[bs, c, (pn * d_model)]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="267.5" y="740" width="137.5" height="30" as="geometry" />
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-4" value="[bs, c, pred_len]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="256.25" y="770" width="137.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
