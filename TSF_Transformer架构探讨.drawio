@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2024-03-28T15:20:52.101Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ni6W_GP4tEQGo4pqbv2B" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-28T15:21:53.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="NTtlWWTeYTVRcyPOTdLP" version="24.0.7" type="github">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
-    <mxGraphModel dx="505" dy="361" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="92" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ngQ9yRomgQoD0f1Z9IKM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ngQ9yRomgQoD0f1Z9IKM-2" target="ngQ9yRomgQoD0f1Z9IKM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ngQ9yRomgQoD0f1Z9IKM-2" value="x_enc: [bs, c, sl]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="250" y="534" width="150" height="30" as="geometry" />
         </mxCell>
@@ -19,8 +22,11 @@
         <mxCell id="ngQ9yRomgQoD0f1Z9IKM-6" value="Transformer需要考虑的问题：&lt;div&gt;(1) 是否去除label_len / start tokens？ - yes&lt;/div&gt;&lt;div&gt;(2) 是否需要timestamp info？ - not sure&lt;/div&gt;&lt;div&gt;(3) 是否需要做成channel independence？ - both&lt;/div&gt;&lt;div&gt;(4) 是否需要做patching？ - yes&lt;/div&gt;&lt;div&gt;(5) auto-regressive还是direct mapping？ - both&lt;/div&gt;&lt;div&gt;(6) 用LN还是BN？&lt;/div&gt;&lt;div&gt;组合后至少有4-8种可能？&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="585" y="370" width="330" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="ngQ9yRomgQoD0f1Z9IKM-7" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="590" width="60" height="30" as="geometry" />
+        <mxCell id="ngQ9yRomgQoD0f1Z9IKM-7" value="[bs, c, pn, pl]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="272.5" y="590" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ngQ9yRomgQoD0f1Z9IKM-10" value="embedding" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="560" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
