@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T03:24:40.743Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="eJ-TZB5c4mHZFiFPn6P3" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T03:26:32.379Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="pyz6r2TJquz9CIk5mVBJ" version="24.0.7" type="github">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
-    <mxGraphModel dx="1749" dy="346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="715" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -205,14 +205,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-60" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(2) 以Informer为例的Transformer结构&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="1010" width="270" height="30" as="geometry" />
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-60" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(4)&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;DMS的Transformer&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;去除&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="5" y="1000" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niT2QRi5Jqm7YUhVwY-3-62" target="niT2QRi5Jqm7YUhVwY-3-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-62" value="x_enc: [bs, sl, c] &amp;amp;&lt;div&gt;x_enc_mark: [bs, sl, ct]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1041" y="521" width="150" height="45" as="geometry" />
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-62" value="x_enc: [bs, sl, c]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1041" y="530" width="150" height="36" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niT2QRi5Jqm7YUhVwY-3-64" target="niT2QRi5Jqm7YUhVwY-3-67">
           <mxGeometry relative="1" as="geometry" />
@@ -259,8 +259,8 @@
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niT2QRi5Jqm7YUhVwY-3-78" target="niT2QRi5Jqm7YUhVwY-3-79">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-78" value="x_dec: [bs, &lt;b&gt;ll + pl&lt;/b&gt;, c] &amp;amp;&lt;div&gt;x_dec_mark: [bs, &lt;b&gt;ll + pl&lt;/b&gt;, ct]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="598" width="150" height="45" as="geometry" />
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-78" value="x_dec: [bs, &lt;b&gt;ll + pl&lt;/b&gt;, c]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="600" width="150" height="43" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-79" value="[bs, &lt;b&gt;ll + pl&lt;/b&gt;, d_model]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1240" y="669" width="130" height="30" as="geometry" />
@@ -277,8 +277,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-82" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(3) DMS的Transformer&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;去除timestamp information&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1035" y="476" width="200" height="50" as="geometry" />
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-82" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(3) DMS的Transformer&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;去除timestamp information&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;以及是否去除lebl_len？- 将ll+pl改成pl&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="466" width="270" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
