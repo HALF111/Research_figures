@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T07:18:37.270Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="WJUyrjtu1JY5EkE8btPM" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T07:19:44.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="uYgLCiIMZfnCi0TK-Lra" version="24.0.7" type="github">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
-    <mxGraphModel dx="1906" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1775" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -451,7 +451,7 @@
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niT2QRi5Jqm7YUhVwY-3-155" target="niT2QRi5Jqm7YUhVwY-3-157">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-155" value="x_enc: [bs, sl, c]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-155" value="x_enc: [bs, sl, c]&amp;nbsp;&amp;amp;&lt;div&gt;x_enc_mark: [bs, sl, ct]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="32" y="1834" width="150" height="36" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-156" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niT2QRi5Jqm7YUhVwY-3-157" target="niT2QRi5Jqm7YUhVwY-3-160">
@@ -499,8 +499,11 @@
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niT2QRi5Jqm7YUhVwY-3-171" target="niT2QRi5Jqm7YUhVwY-3-172">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-171" value="x_dec: [bs, &lt;b&gt;ll + pl&lt;/b&gt;, c]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-171" value="x_dec: [bs, &lt;b&gt;pl&lt;/b&gt;, c]&amp;amp;&lt;div&gt;x_dec_mark: [bs,&amp;nbsp;&lt;b&gt;pl&lt;/b&gt;, ct]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="221" y="1904" width="150" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-177" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="niT2QRi5Jqm7YUhVwY-3-172" target="niT2QRi5Jqm7YUhVwY-3-166">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-172" value="[bs, &lt;b&gt;ll + pl&lt;/b&gt;, d_model]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="231" y="1973" width="130" height="30" as="geometry" />
@@ -518,7 +521,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-175" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(7) IMS (auto-regressive) 的Transformer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-19" y="1790" width="290" height="30" as="geometry" />
+          <mxGeometry x="-31" y="1804" width="290" height="30" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-176" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;关键点：&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;1、去除timestamp information&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;2、以及是否去除lebl_len？&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="2067" width="220" height="70" as="geometry" />
