@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T03:38:54.580Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="-6Mf5FnD2p9vLZH95s-8" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T03:48:40.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="JPhZ0tK0oFfLPe8IT-wb" version="24.0.7" type="github">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
     <mxGraphModel dx="1548" dy="292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -183,7 +183,7 @@
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-53" value="Linear(参数量仅为d_model*1，是否太少了？)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="32" y="1376" width="270" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-54" value="truncate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-54" value="reshape" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="35" y="1427" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niT2QRi5Jqm7YUhVwY-3-56" target="niT2QRi5Jqm7YUhVwY-3-57">
