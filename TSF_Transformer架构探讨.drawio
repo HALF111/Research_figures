@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-29T08:06:23.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="TmDZWLQz8SS9OGJCjHCi" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-29T08:12:08.606Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="eZiLilMnLUZLg_h7VPsE" version="24.0.7" type="github">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
-    <mxGraphModel dx="1730" dy="334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1536" dy="283" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -539,13 +539,13 @@
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niT2QRi5Jqm7YUhVwY-3-198" target="niT2QRi5Jqm7YUhVwY-3-200">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-198" value="[bs, sl, d_model]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-198" value="[bs, pn, d_model]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="647.5" y="1896" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-199" value="embedding (分别映射到d_model后相加)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="694" y="1867" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-200" value="[bs, sl, d_model]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-200" value="[bs, pn, d_model]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="631.25" y="1946" width="137.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-201" value="Encoder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -562,10 +562,10 @@
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-204" value="embedding (分别映射到d_model后相加)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="884" y="1956" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-205" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(8) IMS (auto-regressive) 的Transformer&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;+patching&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-205" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(8) IMS (auto-regressive) 的Transformer&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;+ patching&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="555" y="1770" width="290" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-206" value="decoder第t步的输入为：&lt;div&gt;x_t:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;[bs,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;b&gt;1&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, c]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;amp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;z_t:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;[bs, &lt;b&gt;1&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, ct]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-206" value="decoder第t个patch的输入为：&lt;div&gt;x_t:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;[bs,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;b&gt;1&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, c]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;amp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;z_t:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;[bs, &lt;b&gt;1&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, ct]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="777" y="1900" width="240" height="53" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
@@ -597,17 +597,124 @@
             <mxPoint x="697.37" y="2160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-213" value="[bs, pl, c]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-213" value="[bs, out_pn, (pa_len*c)]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="628.62" y="2190" width="137.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-214" value="Linear" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="704.75" y="2097.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-215" value="第t步的预测：[bs, 1, c]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-215" value="第t步的预测：[bs, 1, (pa_len*c)]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="585.75" y="2130" width="225.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-216" value="迭代pl步，得到pl个预测值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="705" y="2163" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-219" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="niT2QRi5Jqm7YUhVwY-3-220">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="697.37" y="2220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-220" value="[bs, out_pn, pa_len, c]&lt;div&gt;-&amp;gt; [bs, pl, c]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="628.62" y="2250" width="137.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-221" value="flatten，reshape" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="713" y="2220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-223" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;关键点：&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;1、类似地，主要区别在于数据的单位变成了patch。&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;包括自回归也是以一个patch一个patch的形式预测的。&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="817.75" y="2076" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-224" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niT2QRi5Jqm7YUhVwY-3-225" target="niT2QRi5Jqm7YUhVwY-3-227">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-225" value="x_enc: [bs, sl, c] -&amp;gt; [bs, c, pn,&amp;nbsp;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;pa_len, 1&lt;/span&gt;] (reshape + patching)&lt;div&gt;x_enc_mark: [bs, sl, ct] -&amp;gt; [bs, c, pn,&amp;nbsp;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;pa_len&lt;/span&gt;, ct] (reshape + patching)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1197.75" y="1830" width="460" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-226" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niT2QRi5Jqm7YUhVwY-3-227" target="niT2QRi5Jqm7YUhVwY-3-229">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-227" value="[bs, c, pn, d_model]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="1896" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-228" value="embedding (分别映射到d_model后相加)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1421.75" y="1867" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-229" value="[bs, c, pn, d_model]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1359" y="1946" width="137.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-230" value="Encoder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1431.75" y="1921" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="niT2QRi5Jqm7YUhVwY-3-232">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610.75" y="1957" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-232" value="[bs, c,&amp;nbsp;&lt;b&gt;1&lt;/b&gt;, d_model]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1545.75" y="1983" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-233" value="embedding (分别映射到d_model后相加)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1611.75" y="1956" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-234" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;(9) IMS (auto-regressive) 的Transformer&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 15px;&quot;&gt;+ patching + CI&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1282.75" y="1770" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-235" value="decoder第t个patch的输入为：&lt;div&gt;x_t:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;[bs, c,&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;b&gt;1&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, 1]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;amp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;z_t:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;[bs, c,&amp;nbsp;&lt;b&gt;1&lt;/b&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;, ct]&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1504.75" y="1900" width="240" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-236" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1427" y="1972" as="sourcePoint" />
+            <mxPoint x="1427" y="2068" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-237" value="Decoder" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1426.5" y="2025.5" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-238" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="niT2QRi5Jqm7YUhVwY-3-232">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1658" y="2001" as="sourcePoint" />
+            <mxPoint x="1430.5" y="2020.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1610.75" y="2020" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-239" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="niT2QRi5Jqm7YUhVwY-3-240" target="niT2QRi5Jqm7YUhVwY-3-244">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-240" value="第t步的预测中间值：[bs, c, 1, d_model]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1313.5" y="2067.5" width="225.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-241" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="niT2QRi5Jqm7YUhVwY-3-242">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1425.12" y="2160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-242" value="[bs, out_pn, (pa_len*c)]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1356.37" y="2190" width="137.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-243" value="Linear" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1432.5" y="2097.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-244" value="第t步的预测：[bs, 1, (pa_len*c)]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1313.5" y="2130" width="225.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-245" value="迭代pl步，得到pl个预测值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1432.75" y="2163" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="niT2QRi5Jqm7YUhVwY-3-247">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1425.12" y="2220" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-247" value="[bs, out_pn, pa_len, c]&lt;div&gt;-&amp;gt; [bs, pl, c]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1356.37" y="2250" width="137.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-248" value="flatten，reshape" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1440.75" y="2220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-249" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;关键点：&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;1、类似地，主要区别在于数据的单位变成了patch。&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;包括自回归也是以一个patch一个patch的形式预测的。&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1545.5" y="2076" width="380" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
