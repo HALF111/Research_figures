@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-31T03:33:25.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="06xdhzomB-9NSyCdmiwm" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T04:26:22.574Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="NvD279jZ2am2q_bg2dPI" version="24.2.1" type="github">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
-    <mxGraphModel dx="2051" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1955" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -361,7 +361,7 @@
             <mxPoint x="1318.5" y="1095.75" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-127" value="x_enc: [bs, sl, c] -&amp;gt; [bs, c, pn,&amp;nbsp;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;pa_len, 1&lt;/span&gt;] (reshape + patching)&lt;div&gt;x_enc_mark: [bs, sl, ct] -&amp;gt; [bs, c, pn,&amp;nbsp;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;pa_len&lt;/span&gt;, ct] (reshape + patching)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-127" value="x_enc: [bs, sl, c] -&amp;gt; [bs, c, pn,&amp;nbsp;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;pa_len, 1&lt;/span&gt;] (reshape + patching)&lt;div&gt;&lt;strike&gt;x_enc_mark: [bs, sl, ct] -&amp;gt; [bs, c, pn,&amp;nbsp;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;pa_len&lt;/span&gt;, ct] (reshape + patching)&lt;/strike&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1094" y="1006.75" width="450" height="45" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="niT2QRi5Jqm7YUhVwY-3-129" target="niT2QRi5Jqm7YUhVwY-3-132" edge="1">
@@ -409,7 +409,7 @@
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="niT2QRi5Jqm7YUhVwY-3-143" target="niT2QRi5Jqm7YUhVwY-3-144" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="niT2QRi5Jqm7YUhVwY-3-143" value="x_dec: [bs, &lt;b&gt;pl&lt;/b&gt;, c] -&amp;gt; [bs, c, out_pn,&amp;nbsp;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;pa_len&lt;/span&gt;, 1]&lt;div&gt;x_dec_mark: [bs, &lt;b&gt;pl&lt;/b&gt;, ct] -&amp;gt; [bs, c, out_pn,&amp;nbsp;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;pa_len&lt;/span&gt;,&amp;nbsp;ct]&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="niT2QRi5Jqm7YUhVwY-3-143" value="x_dec: [bs, &lt;b&gt;pl&lt;/b&gt;, c] -&amp;gt; [bs, c, out_pn,&amp;nbsp;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;pa_len&lt;/span&gt;, 1]&lt;div&gt;&lt;strike&gt;x_dec_mark: [bs, &lt;b&gt;pl&lt;/b&gt;, ct] -&amp;gt; [bs, c, out_pn,&amp;nbsp;&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;pa_len&lt;/span&gt;,&amp;nbsp;ct]&lt;/strike&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1387.5" y="1127.75" width="369.5" height="45" as="geometry" />
         </mxCell>
         <mxCell id="niT2QRi5Jqm7YUhVwY-3-144" value="[bs, c, out_pn,&amp;nbsp;d_model]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
