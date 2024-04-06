@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2024-04-06T07:44:16.593Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="gbL103YSzzcrEt_2qjcP" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-06T07:47:40.525Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="f2LKm6I4FrI2Xds_4c7A" version="24.2.1" type="github">
   <diagram name="第 1 页" id="Ym5PA6LfhvZpyoDTt8RO">
-    <mxGraphModel dx="786" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="606" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="InKTDK8dn125Za5ob98K-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;导诊LLM agent&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fillStyle=auto;glass=0;shadow=0;" parent="1" vertex="1">
           <mxGeometry x="310" y="210" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="67hTfV5fgS0kcaDo7Zjb-3" value="model&amp;nbsp;infrastructure" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="120" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
