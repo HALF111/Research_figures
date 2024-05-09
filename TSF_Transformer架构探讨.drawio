@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T02:22:19.056Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="CYioU3VCMWl0xcLSFhYf" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-09T02:24:12.038Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 Edg/124.0.0.0" etag="psZlgdXArGNjn94zX10T" version="24.3.1" type="github">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
     <mxGraphModel dx="2292" dy="2321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -2620,6 +2620,15 @@
         </mxCell>
         <mxCell id="Ro6f08GjXbYCOcfCNg-P-106" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;增加了一个全局共享的可学习的[mask]作为bias项&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="808.4399999999999" y="-419.5" width="137.62" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ro6f08GjXbYCOcfCNg-P-107" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;seq_len内的注意力仍为双向，但pred_len为causal的&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1219" y="-590.5" width="90.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ro6f08GjXbYCOcfCNg-P-108" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;所有的注意力均修改为causal的&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="-605" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ro6f08GjXbYCOcfCNg-P-109" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;将seq_len和pred_len部分拆成两个模型分别处理&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="-419.5" width="140.5" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
