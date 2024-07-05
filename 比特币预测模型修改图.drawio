@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T16:08:32.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="iWxVTMvocqIIfpicxOUU" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-05T16:17:13.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="KAE2KytV354Oe2Ce1SFP" version="24.6.4" type="github">
   <diagram id="mCheTAdoRBEMM2ChDu2A" name="Page-1">
-    <mxGraphModel dx="1607" dy="549" grid="1" gridSize="9" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1426" dy="467" grid="1" gridSize="9" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3843,7 +3843,7 @@
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-195" value="&lt;span style=&quot;color: rgb(34, 34, 38); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-variant-ligatures: common-ligatures; text-align: left;&quot;&gt;\begin{aligned} \rm multi-scale~~~ \\ \rm adversarial ~ noise \end{aligned}&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Helvetica;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="651" y="5352" width="138" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="tmA9eb5_qI4mwyAJY9AO-197" value="$$noise = \epsilon_{noise} * (\nabla_X{L(f(X), Y}))$$$$\epsilon_2 = \sqrt{\log{\frac{T_2}{T_1}}} * \epsilon_1$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="tmA9eb5_qI4mwyAJY9AO-197" value="$$noise = \epsilon_{noise} \cdot (\nabla_X{L(f(X), Y}))$$$$\epsilon_2 = \sqrt{\log{\frac{T_2}{T_1}}} \cdot \epsilon_1$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="886" y="5367" width="172" height="70" as="geometry" />
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-198" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;exitX=1;exitY=0;exitDx=0;exitDy=0;fontFamily=Helvetica;" parent="1" source="tmA9eb5_qI4mwyAJY9AO-195" target="tmA9eb5_qI4mwyAJY9AO-194" edge="1">
@@ -3901,7 +3901,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-222" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;dashed=1;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="846" y="5116" width="200" height="180" as="geometry" />
+          <mxGeometry x="828" y="5116" width="243" height="180" as="geometry" />
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-223" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" parent="1" source="tmA9eb5_qI4mwyAJY9AO-224" target="tmA9eb5_qI4mwyAJY9AO-226" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -3942,7 +3942,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-232" value="$$\rm MASK$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="974" y="5171" width="40" height="20" as="geometry" />
+          <mxGeometry x="977" y="5170" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-233" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" parent="1" target="tmA9eb5_qI4mwyAJY9AO-229" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3951,13 +3951,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-234" value="&lt;span style=&quot;color: rgb(34, 34, 38); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-variant-ligatures: common-ligatures; text-align: left;&quot;&gt;\begin{aligned} \rm adaptive \\ \rm window \\ \rm selection \end{aligned}&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="855" y="5142" width="69" height="30" as="geometry" />
+          <mxGeometry x="853" y="5142" width="69" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-235" value="$$\rm MATRIX$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="975" y="5188" width="40" height="24" as="geometry" />
+          <mxGeometry x="980" y="5189" width="40" height="24" as="geometry" />
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-236" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;&lt;sub style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;$$\bf m_L$$&lt;/span&gt;&lt;/sub&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="946" y="5086" width="40" height="30" as="geometry" />
+          <mxGeometry x="946" y="5084" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-237" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fillColor=#d80073;strokeColor=#A50040;fontFamily=Helvetica;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="tmA9eb5_qI4mwyAJY9AO-183" target="tmA9eb5_qI4mwyAJY9AO-222" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3978,7 +3978,7 @@
           <mxGeometry x="942" y="5147" width="4" height="4" as="geometry" />
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-241" value="$$\rm Forecastability$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="979" y="5122" width="40" height="20" as="geometry" />
+          <mxGeometry x="984" y="5121" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-242" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" parent="1" target="tmA9eb5_qI4mwyAJY9AO-239" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
