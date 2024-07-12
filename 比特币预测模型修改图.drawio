@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T06:28:15.310Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="eTL0-3n27-fErQecLMdU" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T08:12:39.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="rLFa1OrhoRiLDyvN0yUC" version="24.6.4" type="github">
   <diagram id="mCheTAdoRBEMM2ChDu2A" name="Page-1">
-    <mxGraphModel dx="1186" dy="467" grid="1" gridSize="9" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="849" dy="267" grid="1" gridSize="9" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3941,8 +3941,8 @@
             <mxPoint x="971" y="5196" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tmA9eb5_qI4mwyAJY9AO-232" value="$$\rm MASK$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="977" y="5170" width="40" height="20" as="geometry" />
+        <mxCell id="tmA9eb5_qI4mwyAJY9AO-232" value="$$\rm U_L$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="964" y="5169" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-233" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=14;" parent="1" target="tmA9eb5_qI4mwyAJY9AO-229" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -3952,9 +3952,6 @@
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-234" value="&lt;span style=&quot;color: rgb(34, 34, 38); font-family: -apple-system, &amp;quot;SF UI Text&amp;quot;, Arial, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, sans-serif; font-variant-ligatures: common-ligatures; text-align: left;&quot;&gt;\begin{aligned} \rm adaptive \\ \rm window \\ \rm selection \end{aligned}&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="853" y="5142" width="69" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="tmA9eb5_qI4mwyAJY9AO-235" value="$$\rm MATRIX$$" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="980" y="5189" width="40" height="24" as="geometry" />
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-236" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;&lt;sub style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;$$\bf m_L$$&lt;/span&gt;&lt;/sub&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="946" y="5084" width="40" height="30" as="geometry" />
