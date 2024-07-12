@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-12T03:03:39.516Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="h90J84ETMOL0sz_cT1FQ" version="24.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T03:05:18.890Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="__bfHTIFDc2av--v_rau" version="24.6.4" type="github">
   <diagram id="mCheTAdoRBEMM2ChDu2A" name="Page-1">
-    <mxGraphModel dx="1160" dy="346" grid="1" gridSize="9" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+    <mxGraphModel dx="1227" dy="492" grid="1" gridSize="9" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4018,6 +4018,15 @@
         </mxCell>
         <mxCell id="tmA9eb5_qI4mwyAJY9AO-249" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;$$\bf X^{(n-1)}_{L}$$&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="404" y="5544" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fa_BUup1f6AhI6hmxIn-2" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\bf X^{(n-1)}_{L_1}$$&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="259" y="5415" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fa_BUup1f6AhI6hmxIn-4" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\bf X^{(n-1)}_{L_2}$$&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="423" y="5413" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1Fa_BUup1f6AhI6hmxIn-5" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;$$\bf X^{(n-1)}_{L_3}$$&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="534" y="5415" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
