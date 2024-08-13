@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15" version="24.7.7">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
-    <mxGraphModel dx="3479" dy="5585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3047" dy="5325" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4838,62 +4838,62 @@
             <mxPoint x="970.07" y="-3011.91" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NmatrtFYQZPyp6o2gNVi-460" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Transformer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="NmatrtFYQZPyp6o2gNVi-460" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;Transformer&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;variants&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="432.62" y="6250" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="NmatrtFYQZPyp6o2gNVi-461" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;prediction form&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-50.5" y="6370" width="146" height="60" as="geometry" />
+          <mxGeometry x="-32" y="6370" width="146" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NmatrtFYQZPyp6o2gNVi-463" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Masks on forecasting window&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="414" y="6370" width="146" height="60" as="geometry" />
+          <mxGeometry x="391" y="6370" width="146" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;prediction tokens share weights&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="647.4999999999999" y="6370" width="146" height="60" as="geometry" />
+          <mxGeometry x="631" y="6370" width="146" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-2" value="&lt;font size=&quot;3&quot;&gt;united or&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;separated model&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="893.07" y="6370" width="146" height="60" as="geometry" />
+          <mxGeometry x="870" y="6370" width="146" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-3" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;attention mechanism&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="173.12" y="6370" width="146" height="60" as="geometry" />
+          <mxGeometry x="151.63" y="6370" width="146" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-4" value="&lt;font size=&quot;3&quot;&gt;normalization layer&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1121.5" y="6370" width="146" height="60" as="geometry" />
+          <mxGeometry x="1110" y="6370" width="146" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;auto-regressive&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90.5" y="6450" width="90.5" height="60" as="geometry" />
+          <mxGeometry x="-97.75" y="6450" width="90.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-6" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;direct-mapping&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="22.62" y="6450" width="98" height="60" as="geometry" />
+          <mxGeometry x="18" y="6450" width="98" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-7" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;别忘记还有auto-regressive和direct-mapping的那个图片&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-725" y="6010" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-8" value="&lt;font size=&quot;3&quot;&gt;bi-directional&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="151.37" y="6450" width="90.5" height="60" as="geometry" />
+          <mxGeometry x="142" y="6450" width="90.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-9" value="&lt;font size=&quot;3&quot;&gt;uni-directional&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="264.49" y="6450" width="98" height="60" as="geometry" />
+          <mxGeometry x="258" y="6450" width="98" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-10" value="&lt;font size=&quot;3&quot;&gt;zero token&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="382.43" y="6450" width="90.5" height="60" as="geometry" />
+          <mxGeometry x="381" y="6450" width="90.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-11" value="&lt;font size=&quot;3&quot;&gt;mask token&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="495.55" y="6450" width="98" height="60" as="geometry" />
+          <mxGeometry x="497" y="6450" width="98" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-12" value="&lt;font size=&quot;3&quot;&gt;shared weights&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="619.95" y="6450" width="90.5" height="60" as="geometry" />
+          <mxGeometry x="621" y="6450" width="90.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-13" value="&lt;font size=&quot;3&quot;&gt;independent weights&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="733.07" y="6450" width="98" height="60" as="geometry" />
+          <mxGeometry x="737" y="6450" width="98" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-14" value="&lt;font size=&quot;3&quot;&gt;united model&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="864.95" y="6450" width="90.5" height="60" as="geometry" />
+          <mxGeometry x="861" y="6450" width="90.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-15" value="&lt;span style=&quot;font-size: medium;&quot;&gt;separated model&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="978.07" y="6450" width="98" height="60" as="geometry" />
+          <mxGeometry x="977" y="6450" width="98" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-16" value="&lt;font size=&quot;3&quot;&gt;batch norm&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1103.0700000000002" y="6450" width="90.5" height="60" as="geometry" />
+          <mxGeometry x="1100" y="6450" width="90.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QyY8TavK5mrNrcpodMTn-17" value="&lt;span style=&quot;font-size: medium;&quot;&gt;layer norm&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1216.19" y="6450" width="98" height="60" as="geometry" />
