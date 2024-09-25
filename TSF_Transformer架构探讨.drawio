@@ -5252,6 +5252,12 @@
         <mxCell id="rEMzxjvQaspOmw3yQX5z-13" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;layer norm&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="567.12" y="6730" width="97" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="rEMzxjvQaspOmw3yQX5z-14" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;onde-model-per-length&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="696.8199999999999" y="6650" width="97" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rEMzxjvQaspOmw3yQX5z-15" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;one-model-all-length&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="696.44" y="6730" width="97" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
