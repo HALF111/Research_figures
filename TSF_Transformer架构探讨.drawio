@@ -5725,7 +5725,7 @@
           <mxGeometry x="1926.75" y="-2410" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rEMzxjvQaspOmw3yQX5z-150" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;(13) Encoder-Decoder-&lt;/font&gt;autoregressive" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=26;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="-2111" width="540" height="30" as="geometry" />
+          <mxGeometry x="1600" y="-2107" width="540" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rEMzxjvQaspOmw3yQX5z-151" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=26;align=center;" vertex="1" parent="1">
           <mxGeometry x="1921.7499999999998" y="-2251" width="60" height="60" as="geometry" />
