@@ -5228,10 +5228,10 @@
         <mxCell id="rEMzxjvQaspOmw3yQX5z-4" value="&lt;font size=&quot;3&quot;&gt;attention&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="138.25" y="6616" width="97" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rEMzxjvQaspOmw3yQX5z-5" value="&lt;font size=&quot;3&quot;&gt;attention + prediction head&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="rEMzxjvQaspOmw3yQX5z-5" value="&lt;font size=&quot;3&quot;&gt;attention + forecasting tokens&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="137.12" y="6690" width="97" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rEMzxjvQaspOmw3yQX5z-6" value="&lt;font size=&quot;3&quot;&gt;attention + prediction head&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="rEMzxjvQaspOmw3yQX5z-6" value="&lt;font size=&quot;3&quot;&gt;attention + all tokens&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="138.25" y="6770" width="97" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rEMzxjvQaspOmw3yQX5z-7" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;auto-regression&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
