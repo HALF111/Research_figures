@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
-    <mxGraphModel dx="2879" dy="5994" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2635" dy="5846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5180,7 +5180,7 @@
         <mxCell id="rEMzxjvQaspOmw3yQX5z-6" value="&lt;font size=&quot;3&quot;&gt;attention + all tokens&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="279.13" y="6772" width="97" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rEMzxjvQaspOmw3yQX5z-7" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;auto-regression&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="rEMzxjvQaspOmw3yQX5z-7" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;auto-regressive&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="135.69" y="6660" width="97" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rEMzxjvQaspOmw3yQX5z-8" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;direct-mapping&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
