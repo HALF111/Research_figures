@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
-    <mxGraphModel dx="4100" dy="6742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3734" dy="6520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -6601,8 +6601,23 @@
         <mxCell id="djAFZC_47qiqZtdTZGDu-374" value="Encoder" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="3997.5" y="1172.75" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="djAFZC_47qiqZtdTZGDu-376" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(a)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
-          <mxGeometry x="2863" y="621" width="60" height="30" as="geometry" />
+        <mxCell id="djAFZC_47qiqZtdTZGDu-376" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(a) Encoder&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="2740" y="621" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="djAFZC_47qiqZtdTZGDu-377" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(b) Decoder&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="618" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="djAFZC_47qiqZtdTZGDu-378" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(c) Prefix Decoder&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="3960" y="627" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="djAFZC_47qiqZtdTZGDu-379" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(d) Double Encoder&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="2725" y="1231.25" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="djAFZC_47qiqZtdTZGDu-380" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(e) Double Decoder&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="3320" y="1226.5" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="djAFZC_47qiqZtdTZGDu-381" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(f) Encoder-Decoder&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="3927.5" y="1226.5" width="380" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
