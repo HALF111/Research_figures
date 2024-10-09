@@ -6601,11 +6601,11 @@
         <mxCell id="djAFZC_47qiqZtdTZGDu-374" value="Encoder" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="3997.5" y="1172.75" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="djAFZC_47qiqZtdTZGDu-376" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(a) Encoder&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
-          <mxGeometry x="2740" y="621" width="290" height="30" as="geometry" />
+        <mxCell id="djAFZC_47qiqZtdTZGDu-376" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(a) Encoder-only&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="621" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="djAFZC_47qiqZtdTZGDu-377" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(b) Decoder&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
-          <mxGeometry x="3350" y="618" width="290" height="30" as="geometry" />
+        <mxCell id="djAFZC_47qiqZtdTZGDu-377" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(b) Decoder-only&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="3350" y="618" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="djAFZC_47qiqZtdTZGDu-378" value="&lt;font style=&quot;font-size: 40px;&quot;&gt;(c) Prefix Decoder&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="3960" y="627" width="350" height="30" as="geometry" />
