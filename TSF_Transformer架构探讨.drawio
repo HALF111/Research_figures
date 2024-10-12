@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
-    <mxGraphModel dx="4043" dy="6742" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2287" dy="5654" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7676,10 +7676,10 @@
         <mxCell id="djAFZC_47qiqZtdTZGDu-837" value="&lt;font size=&quot;3&quot;&gt;attention + all tokens&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1607.96" y="6246" width="97" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="djAFZC_47qiqZtdTZGDu-838" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;separated model&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="djAFZC_47qiqZtdTZGDu-838" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;w/ cross-attention&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1464.25" y="6120" width="97" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="djAFZC_47qiqZtdTZGDu-839" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;united model&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="djAFZC_47qiqZtdTZGDu-839" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;w/o cross-attention&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1464.1399999999999" y="6214" width="97" height="60" as="geometry" />
         </mxCell>
         <mxCell id="djAFZC_47qiqZtdTZGDu-840" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;direct-mapping&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
