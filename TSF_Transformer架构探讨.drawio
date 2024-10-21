@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="第 1 页" id="YpbiSjG1CCVhTUE82v4j">
-    <mxGraphModel dx="2452" dy="5740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2024" dy="5480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7680,13 +7680,13 @@
         <mxCell id="djAFZC_47qiqZtdTZGDu-834" value="&lt;div&gt;&lt;span style=&quot;background-color: initial; font-size: medium;&quot;&gt;hybrid-approach&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="1321.58" y="6164" width="97" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="djAFZC_47qiqZtdTZGDu-835" value="&lt;font size=&quot;3&quot;&gt;no&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;aggregation&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Georgia;" parent="1" vertex="1">
+        <mxCell id="djAFZC_47qiqZtdTZGDu-835" value="&lt;font size=&quot;3&quot;&gt;no aggregation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="1607.96" y="6092" width="97" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="djAFZC_47qiqZtdTZGDu-836" value="&lt;font size=&quot;3&quot;&gt;attention + forecasting tokens&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Georgia;" parent="1" vertex="1">
+        <mxCell id="djAFZC_47qiqZtdTZGDu-836" value="&lt;font size=&quot;3&quot;&gt;partial aggregation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="1606.83" y="6166" width="97" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="djAFZC_47qiqZtdTZGDu-837" value="&lt;font size=&quot;3&quot;&gt;attention + all tokens&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Georgia;" parent="1" vertex="1">
+        <mxCell id="djAFZC_47qiqZtdTZGDu-837" value="&lt;font size=&quot;3&quot;&gt;complete aggregation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="1607.96" y="6246" width="97" height="60" as="geometry" />
         </mxCell>
         <mxCell id="djAFZC_47qiqZtdTZGDu-838" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;joint-attention&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Georgia;" parent="1" vertex="1">
