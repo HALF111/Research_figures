@@ -7689,10 +7689,10 @@
         <mxCell id="djAFZC_47qiqZtdTZGDu-837" value="&lt;font size=&quot;3&quot;&gt;attention + all tokens&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="1607.96" y="6246" width="97" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="djAFZC_47qiqZtdTZGDu-838" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;w/ cross-attention&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Georgia;" parent="1" vertex="1">
+        <mxCell id="djAFZC_47qiqZtdTZGDu-838" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;joint-attention&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="1464.25" y="6120" width="97" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="djAFZC_47qiqZtdTZGDu-839" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;w/o cross-attention&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Georgia;" parent="1" vertex="1">
+        <mxCell id="djAFZC_47qiqZtdTZGDu-839" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;cross-attention&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="1464.1399999999999" y="6214" width="97" height="60" as="geometry" />
         </mxCell>
         <mxCell id="djAFZC_47qiqZtdTZGDu-840" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;direct-mapping&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=Georgia;" parent="1" vertex="1">
@@ -7710,7 +7710,7 @@
         <mxCell id="djAFZC_47qiqZtdTZGDu-846" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Attention mechanism&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="1419.5" y="6345" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="djAFZC_47qiqZtdTZGDu-847" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Forecasting feature fusion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;" parent="1" vertex="1">
+        <mxCell id="djAFZC_47qiqZtdTZGDu-847" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Forecasting aggregation&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="1585.33" y="6345" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="djAFZC_47qiqZtdTZGDu-849" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Forecasting objectives&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Georgia;" parent="1" vertex="1">
