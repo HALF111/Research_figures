@@ -10673,10 +10673,10 @@
           <mxGeometry x="4530.62" y="3" width="487.75" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jhdRX1Bm0ylzIbLxPiF--52" value="&lt;span style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;Joint-attention&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Georgia;fontColor=#FF0000;rotation=270;" vertex="1" parent="1">
-          <mxGeometry x="2946.88" y="261.25" width="407.12" height="30" as="geometry" />
+          <mxGeometry x="2943.88" y="261.25" width="407.12" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jhdRX1Bm0ylzIbLxPiF--53" value="&lt;span style=&quot;font-size: 40px;&quot;&gt;&lt;b&gt;Cross&lt;/b&gt;&lt;/span&gt;&lt;b style=&quot;font-size: 40px; background-color: initial;&quot;&gt;-attention&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Georgia;fontColor=#FF0000;rotation=270;" vertex="1" parent="1">
-          <mxGeometry x="2946.88" y="877" width="407.12" height="30" as="geometry" />
+          <mxGeometry x="2943.88" y="877" width="407.12" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
