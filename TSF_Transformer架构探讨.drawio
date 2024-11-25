@@ -10468,10 +10468,10 @@
         <mxCell id="127612c0AOQlnWvBpkD7-465" value="X&lt;sub style=&quot;font-size: 30px;&quot;&gt;4&lt;/sub&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="6845.3" y="3898" width="68.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="127612c0AOQlnWvBpkD7-466" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;(c) Encoder-Decoder-direct&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Georgia;" parent="1" vertex="1">
+        <mxCell id="127612c0AOQlnWvBpkD7-466" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;(c) Encoder-decoder-direct&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="5990.009999999999" y="3986" width="345.04" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="127612c0AOQlnWvBpkD7-467" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;(d) Encoder-Decoder-autoregressive&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Georgia;" parent="1" vertex="1">
+        <mxCell id="127612c0AOQlnWvBpkD7-467" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;(d) Encoder-decoder-autoregressive&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;fontFamily=Georgia;" parent="1" vertex="1">
           <mxGeometry x="6528.14" y="3986" width="390.04" height="30" as="geometry" />
         </mxCell>
         <mxCell id="jhdRX1Bm0ylzIbLxPiF--1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;bi-&lt;/font&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;directional&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Georgia;" parent="1" vertex="1">
