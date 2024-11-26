@@ -9,9 +9,12 @@
         </mxCell>
         <mxCell id="TyPNuILmBBEq8IkLMZBc-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="TyPNuILmBBEq8IkLMZBc-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="320" y="180" as="sourcePoint" />
+            <mxPoint x="190" y="180" as="sourcePoint" />
             <mxPoint x="460" y="260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="TyPNuILmBBEq8IkLMZBc-3" value="全球模型（预训练，粗粒度）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220" y="150" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
