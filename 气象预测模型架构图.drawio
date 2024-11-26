@@ -34,6 +34,24 @@
         <mxCell id="TyPNuILmBBEq8IkLMZBc-7" value="次网格模型（预训练）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="240" y="250" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="TyPNuILmBBEq8IkLMZBc-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="TyPNuILmBBEq8IkLMZBc-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="50" as="sourcePoint" />
+            <mxPoint x="460" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TyPNuILmBBEq8IkLMZBc-9" value="历史数据&lt;div&gt;（温湿风压）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="70" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TyPNuILmBBEq8IkLMZBc-10" value="预测数据&lt;div&gt;（温湿风压）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TyPNuILmBBEq8IkLMZBc-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474.69" y="300" as="sourcePoint" />
+            <mxPoint x="474.69" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
