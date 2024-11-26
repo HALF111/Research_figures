@@ -16,6 +16,24 @@
         <mxCell id="TyPNuILmBBEq8IkLMZBc-3" value="全球模型（预训练，粗粒度）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="220" y="150" width="180" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="TyPNuILmBBEq8IkLMZBc-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="230" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TyPNuILmBBEq8IkLMZBc-5" value="卫星、雷达、气象站数据" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TyPNuILmBBEq8IkLMZBc-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TyPNuILmBBEq8IkLMZBc-7" value="次网格模型（预训练）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
