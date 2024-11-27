@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="第 1 页" id="foLWSIHpTmqqNMh0ISx7">
-    <mxGraphModel dx="641" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="821" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,8 +31,8 @@
             <mxPoint x="440" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TyPNuILmBBEq8IkLMZBc-7" value="3、次网格模型（synthetic数据预训练）&lt;div&gt;包含温湿风压+辐照/热通量/热感量&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="210" y="290" width="200" height="40" as="geometry" />
+        <mxCell id="TyPNuILmBBEq8IkLMZBc-7" value="3、次网格模型（synthetic数据预训练）&lt;div&gt;学习物理过程，包含温湿风压+辐照/热通量/热感量&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="190" y="290" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TyPNuILmBBEq8IkLMZBc-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="1" target="TyPNuILmBBEq8IkLMZBc-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
