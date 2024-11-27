@@ -13,7 +13,7 @@
             <mxPoint x="460" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TyPNuILmBBEq8IkLMZBc-3" value="1、全球预测模型（预训练，粗粒度grid数据）&lt;div&gt;模态相同、粒度不同；取出所需区域后插值，X_global&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="TyPNuILmBBEq8IkLMZBc-3" value="1、全球预测模型（预训练，粗粒度grid数据）&lt;div&gt;特征相同、粒度不同；取出所需区域后插值，X_global&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="180" y="140" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TyPNuILmBBEq8IkLMZBc-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" parent="1" edge="1">
@@ -22,8 +22,8 @@
             <mxPoint x="440" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TyPNuILmBBEq8IkLMZBc-5" value="2、卫星、雷达、（）&lt;div&gt;气象站数据（模态相同，但离散数据）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="212.21" y="185" width="190" height="40" as="geometry" />
+        <mxCell id="TyPNuILmBBEq8IkLMZBc-5" value="2、卫星、雷达、（特征不同、粒度不同）&lt;div&gt;气象站数据（特征相同，但离散数据）&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="210" y="190" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TyPNuILmBBEq8IkLMZBc-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -32,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="TyPNuILmBBEq8IkLMZBc-7" value="3、次网格模型（synthetic数据预训练）&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="210" y="235" width="200" height="40" as="geometry" />
+          <mxGeometry x="210" y="240" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="TyPNuILmBBEq8IkLMZBc-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=10;" parent="1" target="TyPNuILmBBEq8IkLMZBc-1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -62,7 +62,7 @@
           <mxGeometry x="486.82" y="320" width="114.36" height="60" as="geometry" />
         </mxCell>
         <mxCell id="65B-NWoF7yc6FuelLCNn-6" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;look-back&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="514" y="110" width="60" height="30" as="geometry" />
+          <mxGeometry x="514" y="100" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="65B-NWoF7yc6FuelLCNn-7" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;future&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="519" y="370" width="50" height="30" as="geometry" />
