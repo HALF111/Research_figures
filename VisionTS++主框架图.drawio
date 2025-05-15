@@ -183,7 +183,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UcrgjC-dRYHWEmtG6xzf-77" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Reconstruction&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="435" y="380.5" width="60" height="13" as="geometry" />
+          <mxGeometry x="432" y="380.5" width="60" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="UcrgjC-dRYHWEmtG6xzf-78" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;with &lt;b&gt;h&lt;/b&gt; heads&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="432" y="400" width="60" height="13" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
