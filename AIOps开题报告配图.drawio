@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 Edg/141.0.0.0" version="28.2.0">
   <diagram name="第 1 页" id="98_WeS3kOqerWwTda9qR">
-    <mxGraphModel dx="262" dy="169" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="530" dy="342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -85,7 +85,7 @@
         <mxCell id="IiBlYbnSgoboxegxGuvg-25" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;$$\Delta t_d$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="215" y="310" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IiBlYbnSgoboxegxGuvg-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+        <mxCell id="IiBlYbnSgoboxegxGuvg-26" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="340" as="sourcePoint" />
             <mxPoint x="400" y="340" as="targetPoint" />
@@ -97,7 +97,7 @@
         <mxCell id="IiBlYbnSgoboxegxGuvg-29" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;$$\Delta t_l$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="315" y="310" width="80" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="IiBlYbnSgoboxegxGuvg-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+        <mxCell id="IiBlYbnSgoboxegxGuvg-31" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=light-dark(#000000, #5c79a3);" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="320" y="350" as="sourcePoint" />
             <mxPoint x="380" y="350" as="targetPoint" />
@@ -109,7 +109,7 @@
         <mxCell id="IiBlYbnSgoboxegxGuvg-33" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;$$\Delta t_w$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="311.5" y="352" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IiBlYbnSgoboxegxGuvg-34" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+        <mxCell id="IiBlYbnSgoboxegxGuvg-34" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="339.76" as="sourcePoint" />
             <mxPoint x="520" y="340" as="targetPoint" />
@@ -121,7 +121,7 @@
             <mxPoint x="520" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IiBlYbnSgoboxegxGuvg-37" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
+        <mxCell id="IiBlYbnSgoboxegxGuvg-37" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="340" as="sourcePoint" />
             <mxPoint x="640" y="340.24" as="targetPoint" />
@@ -162,6 +162,15 @@
         </mxCell>
         <mxCell id="IiBlYbnSgoboxegxGuvg-48" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;$$t + \Delta t_l + \Delta t_p$$&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="505" y="410" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IiBlYbnSgoboxegxGuvg-49" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Past&lt;/font&gt;" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="170" y="260" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IiBlYbnSgoboxegxGuvg-50" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Present&lt;/font&gt;" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="285" y="260" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IiBlYbnSgoboxegxGuvg-51" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Future&lt;/font&gt;" style="text;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="440" y="260" width="70" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
