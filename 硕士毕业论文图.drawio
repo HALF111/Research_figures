@@ -4,8 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="zu0TnF7He7Agh0zYtHK8-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="330" y="260" as="geometry" />
+        <mxCell id="zu0TnF7He7Agh0zYtHK8-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;" value="&lt;p class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box; line-height: 20px; font-family: Inter, sans-serif; font-optical-sizing: auto; margin-bottom: 18px; color: rgb(26, 28, 30);&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;font&gt;(1) 面向分布偏移的上下文感知在线校准机制&lt;/font&gt;&lt;/strong&gt;&lt;br class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot; style=&quot;font-size: 10px; box-sizing: border-box;&quot;&gt;针对特征分布偏移&lt;/span&gt;&lt;span class=&quot;ng-star-inserted&quot; style=&quot;font-size: 10px; box-sizing: border-box;&quot;&gt;挑战，提出基于检索增强的后验校准策略。&lt;/span&gt;&lt;br class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;span class=&quot;ng-star-inserted&quot; style=&quot;font-size: 10px; box-sizing: border-box;&quot;&gt;通过互信息检测与动态修正，实现无需重训的&lt;/span&gt;&lt;span class=&quot;ng-star-inserted&quot; style=&quot;font-size: 10px; box-sizing: border-box;&quot;&gt;测试时快速适应&lt;/span&gt;&lt;span class=&quot;ng-star-inserted&quot; style=&quot;font-size: 10px; box-sizing: border-box;&quot;&gt;。&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="80" width="410" x="200" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FwHNW5e9kAzw6JS8Cpy2-2" parent="1" style="text;whiteSpace=wrap;fontSize=13;fontStyle=1" value="面向混合特征的时间序列建模方法研究" vertex="1">
+          <mxGeometry height="30" width="240" x="280" y="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
