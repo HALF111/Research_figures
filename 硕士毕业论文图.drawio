@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.3.1">
   <diagram name="第 1 页" id="4lZp5e2ybqr0C981EXqW">
-    <mxGraphModel dx="695" dy="438" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="595" dy="375" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,14 +25,37 @@
         <mxCell id="FwHNW5e9kAzw6JS8Cpy2-9" parent="1" style="text;whiteSpace=wrap;fontFamily=仿宋;textShadow=0;" value="范式跃迁：从专用模型到通用预测" vertex="1">
           <mxGeometry height="20" width="187" x="413" y="444" as="geometry" />
         </mxCell>
-        <mxCell id="FwHNW5e9kAzw6JS8Cpy2-12" parent="1" style="text;whiteSpace=wrap;html=1;textShadow=0;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;仿宋&quot; style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;面向混合特征的时间序列建模方法研究&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center; forced-color-adjust: none; padding: 0px; margin: 0px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="40" width="244" x="285" y="180" as="geometry" />
+        <mxCell id="FwHNW5e9kAzw6JS8Cpy2-12" parent="1" style="text;whiteSpace=wrap;html=1;textShadow=0;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;仿宋&quot; style=&quot;font-size: 16px;&quot;&gt;&lt;b style=&quot;&quot;&gt;面向混合特征的时间序列方法递进式解决方案&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="380" x="150" y="220" as="geometry" />
         </mxCell>
-        <mxCell id="FwHNW5e9kAzw6JS8Cpy2-13" parent="1" style="text;whiteSpace=wrap;html=1;textShadow=0;" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: 仿宋; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;递进式解决方案：数据适应 → 结构解耦 → 先验泛化&lt;/span&gt;" vertex="1">
-          <mxGeometry height="29" width="296" x="257" y="200" as="geometry" />
+        <mxCell id="98OiJq6sKokFi3mfYxD0-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;fontFamily=仿宋;textShadow=0;" value="&lt;p class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box; line-height: 20px; font-optical-sizing: auto; margin-bottom: 18px; color: rgb(26, 28, 30);&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;font&gt;问题1：非平稳分布偏移挑战&lt;/font&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="90" x="86" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="98OiJq6sKokFi3mfYxD0-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;labelBackgroundColor=none;fontFamily=仿宋;textShadow=0;" value="&lt;p class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box; line-height: 20px; font-optical-sizing: auto; margin-bottom: 18px; color: rgb(26, 28, 30);&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;font&gt;问题1：混合特征分布偏移挑战&lt;/font&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="100" width="70" x="120" y="230" as="geometry" />
+        <mxCell id="98OiJq6sKokFi3mfYxD0-6" edge="1" parent="1" source="98OiJq6sKokFi3mfYxD0-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.503;entryDx=0;entryDy=0;entryPerimeter=0;" target="zu0TnF7He7Agh0zYtHK8-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="98OiJq6sKokFi3mfYxD0-7" parent="1" style="text;whiteSpace=wrap;html=1;textShadow=0;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;仿宋&quot;&gt;数据适应&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29" width="60" x="176" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="98OiJq6sKokFi3mfYxD0-13" edge="1" parent="1" source="98OiJq6sKokFi3mfYxD0-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FwHNW5e9kAzw6JS8Cpy2-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98OiJq6sKokFi3mfYxD0-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=none;fontFamily=仿宋;textShadow=0;" value="&lt;p class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box; line-height: 20px; font-optical-sizing: auto; margin-bottom: 18px; color: rgb(26, 28, 30);&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;font&gt;问题2：多尺度特征耦合挑战&lt;/font&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="90" x="86" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="98OiJq6sKokFi3mfYxD0-15" edge="1" parent="1" source="98OiJq6sKokFi3mfYxD0-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="FwHNW5e9kAzw6JS8Cpy2-4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="98OiJq6sKokFi3mfYxD0-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;labelBackgroundColor=none;fontFamily=仿宋;textShadow=0;" value="&lt;p class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box; line-height: 20px; font-optical-sizing: auto; margin-bottom: 18px; color: rgb(26, 28, 30);&quot;&gt;&lt;font style=&quot;&quot;&gt;&lt;strong class=&quot;ng-star-inserted&quot; style=&quot;box-sizing: border-box;&quot;&gt;&lt;font&gt;问题3：通用语义特征稀缺挑战&lt;/font&gt;&lt;/strong&gt;&lt;/font&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="70" width="90" x="86" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="98OiJq6sKokFi3mfYxD0-16" parent="1" style="text;whiteSpace=wrap;html=1;textShadow=0;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;font face=&quot;仿宋&quot;&gt;结构解耦&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29" width="60" x="176" y="378" as="geometry" />
+        </mxCell>
+        <mxCell id="98OiJq6sKokFi3mfYxD0-17" parent="1" style="text;whiteSpace=wrap;html=1;textShadow=0;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;font face=&quot;仿宋&quot;&gt;先验泛化&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29" width="60" x="176" y="488" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
